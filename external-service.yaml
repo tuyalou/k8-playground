@@ -7,3 +7,4 @@ spec:
   externalName: example.com
   ports:
   - port: 80
+    protocol: TCP
