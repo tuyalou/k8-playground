@@ -13,5 +13,5 @@ spec:
   capacity:
     storage: 1Gi
   nfs:
-    server: 161.35.63.181
+    server: 10.97.76.210
     path: /share

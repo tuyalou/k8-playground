@@ -24,7 +24,7 @@ spec:
         env:
           # Test, use secret in prod
         - name: MYSQL_ROOT_PASSWORD
-          value: MyV3ryS3curePa55
+          value: password
         livenessProbe:
           tcpSocket:
             port: 3306
