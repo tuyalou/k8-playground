@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: monolithic-pod
+spec: 
+  containers:
+  - image: nginx
+    name: web
+  - image: memcached
+    name: memcached
+    stdin: true
+    tty: true
